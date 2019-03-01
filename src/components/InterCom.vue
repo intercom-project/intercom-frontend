@@ -16,6 +16,10 @@
         <md-button class="md-dense md-primary">Valider</md-button>
       </md-card-actions>
     </md-card>
+    <md-button class="md-fab md-plain md-fab-bottom-right">
+      <md-tooltip md-direction="top">Créer votre serveur</md-tooltip>
+      <md-icon>add</md-icon>
+    </md-button>
   </div>
 </template>
 
@@ -57,7 +61,6 @@ a
 {
   color: #42b983;
 }
-
 .md-card
 {
   width: 320px;
@@ -77,7 +80,6 @@ a
 
 .md-field
 {
-  //margin-left: 10px;
   width: 150px;
 }
 
@@ -85,4 +87,10 @@ a
 {
   width: 150px;
 }
+
+.md-tooltip
+{
+  margin-bottom: 13px;
+}
+
 </style>
